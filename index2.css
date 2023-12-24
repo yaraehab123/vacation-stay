@@ -1,0 +1,287 @@
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: math;
+}
+.progect {
+    overflow: hidden;
+    background-color: #ebe6e3;
+}
+main {
+    background-image: url(bac.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 607px;
+    width: 100%;
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 8%;
+    box-shadow: 1px 1px 20px 0px #757575b0;
+    position: fixed;
+    z-index: 100;
+    background-color: transparent;
+}
+.logo, .meno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(110% / 5);
+    color: #ff984fd2;
+}
+.logo img {
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 25px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 120%;
+    height: 150%;
+}
+.meno {
+    justify-content: flex-end;
+    position: relative;
+    top: 0;
+    left: 0;
+    list-style-type: none;
+}
+.meno li a {
+    text-decoration: none;
+    color: #3f5535;
+}
+.meno li {
+    padding-right: 35px;
+    font-size: 18px;
+}
+#start {
+    position: relative;
+    background-image: url(full\ logo.jpg);
+    background-size:cover ;
+    width: 100%;
+    height:100%;
+}
+
+#start h1 {
+    margin: auto;
+    display: flex;
+    justify-content: right;
+    font-size: 50px;
+    color: rgba(41, 68, 41, 0.702);
+    text-align: center;
+    position: absolute;
+    top: 31%;
+    left: 23%;
+}
+.search {
+    display: flex;
+    margin: 18px auto;
+    width: 98%;
+    height: 17%;
+    background-color: rgba(255, 255, 255, 0.671);
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+    padding: 34px;
+    color: #ff974f;
+    position: absolute;
+    top: 69%;
+    left: 3%;
+}
+.city, .vacation, .view, .arrival, .daparture {
+    margin-right: 10px;
+       
+}
+
+form label {
+    padding: 20px;
+    font-size: 25px;
+}
+.view {
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    color: #000;
+}
+#start button {
+    width: 160px;
+    height: 45px;
+    background-color: #ff975699;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 25px;
+    font-family: math;
+    text-transform: capitalize;
+    color: #ffffffd9;
+    margin-top: 5%;
+}
+
+#form {
+    margin: 40px auto;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.home {
+    background-color: #79736f7a;
+    width: 90%;
+    height: 300px;
+    box-shadow: -1px 0px 20px 6px #0000003b;
+    margin: auto;
+    margin-bottom: 40px;
+}
+input {
+    width: 200px;
+    height: 35px;
+    margin: 10px auto;
+    background: transparent;
+    border: 2px solid #757575;
+    border-radius: 10px;
+}
+#ok {
+    width: 150px;
+    height: 40px;
+    background-color: #bcb6b2;
+    border-radius: 20px;
+    font-size: 25px;
+    font-family: math;
+    text-transform: capitalize;
+    color: #000000;
+    margin-left: 230px;
+}
+#overview h1{
+    display: flex;
+    margin-left: 43%;
+    font-size: xxx-large;
+    color: #2d251f;
+}
+#form h1{
+    display: flex;
+    margin-left: 39%;
+    font-size: -webkit-xxx-large;
+    font-style: oblique;
+    color: #413831;
+}
+#overview h2{ margin-left: 13px;
+    font-size: 37px;
+    color: #57933b;
+}
+
+.villes {
+        display: flex;
+        justify-content: space-around;
+        color: #579f35;
+        font-size: 19px;
+        width: 110%;
+        padding-right: 10%;
+        background-color: #c1b9b3;
+    }
+    .v1{
+        background-color:#d9d3d0a3 ;
+    }
+    .pv1{
+        margin-left: 30px;
+    }
+    .v2{
+        background-color:#d9d3d0a3;
+    }
+    .v3{
+        background-color:#d9d3d0a3;
+    }
+    .b1{
+        background-color: #8bb577;
+    width: 76px;
+    height: 39px;
+    color: #e9e5de;
+    font-size: large;
+    border-radius: 15px;
+    margin-left: 137px;
+    margin-bottom: 20px;
+    }
+    .apartment{
+        display: flex;
+    margin-left: 25px;
+    justify-content: space-between;
+    width: 108%;
+    padding-right: 14%;
+    font-size: large;
+    color: #3b7b1d;
+    background-color: #c1b9b3;
+}
+.app1{
+    margin-left: 30px;
+}
+.ap1{
+    background-color:#d9d3d0a3;
+}
+.ap2{
+    background-color:#d9d3d0a3;
+}
+.ap3{
+    background-color:#d9d3d0a3;
+}
+.chalets{
+    display: flex;
+    margin-left: 25px;
+    justify-content: space-between;
+    width: 108%;
+    padding-right: 14%;
+    font-size: large;
+    color: #3b7b1d;
+    background-color: #c1b9b3;
+}
+.pch1{
+    margin-left: 30px;
+}
+.ch1{
+    background-color:#d9d3d0a3;
+}
+.ch2{
+    background-color:#d9d3d0a3;
+}
+.ch3{
+    background-color:#d9d3d0a3;
+}
+#map h1{
+    display: flex;
+    margin-left: 43%;
+    font-size: xxx-large;
+    color: #2d251f;
+}
+#map{
+    border: 0;
+    margin-left: 243px;
+}
+.rate p {
+    display: flex;
+    font-size: xxx-large;
+    color: #2d251f;
+}
+.rate{
+    display: flex;
+}
+#contact{
+    display: flex;
+}
+
+#contact p{
+        display: flex;
+        font-size: xxx-large;
+        color: #2d251f;
+}
+.shareBtn{
+    margin-top: 37px;
+    background-color: #838080;
+    border-radius: 29px;
+    width: 98px;
+    height: 75px;
+}
