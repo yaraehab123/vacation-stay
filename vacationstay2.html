@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <title> vacation stay </title>
+    <link .="" rel="stylesheet" href="index2.css">
+    <script src="index2.js"></script>
+    <meta charset="UTF-8">
+    
+</head>
+<body>
+ <div class="progect">
+  <main id="home">
+    <nav>
+        <div class="logo">
+        <h3>VACATION STAY</h3>
+        </div>
+        <ul class="meno">
+          <li><a href="#home">home</a></li>
+          <li><a href="#overview">overview</a></li>
+          <li><a href="#map"> map </a></li>
+          <li><a href="#rates"> rates</a></li>
+          <li><a href="#contact"> contact </a></li>
+        </ul>   
+    </nav>
+    <div id="start">
+        <h1> WELCOME IN VACATION STAY </h1>
+        <div class="search">
+     <form action="index.php" method="post" style="display: flex; top:33%;left:-15%">
+        
+          <div class="city">
+             <label for="txtbox6"> city </label>
+          <select id="txtbox6" name="city">
+            <option value="0" select="" disabled="" selected=""> city </option>
+            <option value="1"> ALEX </option>
+            <option value="2"> Cairo </option>
+            <option value="3"> Sharm Elshaikh </option>
+          </select>
+         </div>
+         <div class="vacation">
+          <label for="txtbox7"> vacation rentals type </label>
+          <select id="txtbox7" name="vacation rates type">
+            <option value="0" select="" disabled="" selected="">vacation rates type</option>
+            <option value="1"> Villas</option>
+            <option value="2"> Apartments </option>
+            <option value="3"> chalets</option>
+          </select>
+         </div>
+         <div class="arrival">
+            <label for="txtbox9"> arrival </label>
+            <input id="txtbox9" type="date" name="date" required="">
+         </div>
+         <div class="daparture">
+            <label for="txtbox10"> daparture </label>
+            <input id="txtbox10" type="date" name="date" required="">
+         </div>
+             <button type="submit" name="btntest1">search</button> 
+             </form>
+           
+        </div>
+       
+   </div>
+  </main>
+  <div id="form">
+    <h1 > visitor's form</h1>
+   </div>
+    <div class="home">
+       <form action="index.php" method="post">
+          <label for="txtbox1"> first name: </label>
+          <input id="txtbox1" type="text" name="first name" maxlength="30" placeholder="name" required=""> 
+          <label for="txtbox2"> last name: </label>
+          <input id="txtbox2" type="text" name="last name" maxlength="30" placeholder="name" required=""> <br><br><br><br>
+          <label for="txtbox3"> email: </label>
+          <input id="txtbox3" type="email" name="email" placeholder="email@gmail.com" required=""> 
+          <label for="txtbox4"> password </label>
+          <input id="txtbox4" type="password" name="paw" required=""> <br><br><br><br>
+          <label for="txtbox5">phone number </label>
+          <input id="txtbox5" type="text" name="phone_number" placeholder="number" required=""> 
+          <button name="btntest2" id="ok" onclick="test()" type="submit"> ok </button>
+       </form>  
+     
+     </div>
+     <hr>
+     <div class="overview" id="overview">
+        <h1> overview </h1>
+        <h2> villes </h2>
+        <div class="villes">
+       <div class="v1">
+          <img id="myimg" src="v1.jpg" width="250px" height="250px">
+          <div class="pv1">
+          <p>1 night=4000$</p>
+          <p>5 room</p>
+          <p> 3 toilet</p>
+          <p> discount 4%</p>
+          <p>1o person</p>
+          <p>double bed</p>
+         </div>
+          <button class="b1">book</button>
+
+       </div>
+        <div class="v2">
+           <img src="v2.jpg" width="250px" height="250px">
+           <div class="pv1">
+           <p>1 night=3500$</p>
+           <p>6 room</p>
+           <p>5 toilet</p>
+           <p>12 person</p>
+           <p>double bed</p>
+           <p>parking</p>
+           <p>pool</p>
+         </div>
+          <button class="b1">book</button>
+        </div>
+        <div class="v3">
+           <img src="v3.jpg" width="250px" height="250px">
+           <div class="pv1">
+           <p> 1 night=5000$</p>
+           <p>6 room</p>
+           <p>4 toilet</p>
+           <p>12 person</p>
+           <p>double bed</p>
+           <p> pool</p>
+           <p>parking</p>
+         </div>
+           <button class="b1">book</button>
+        </div>
+    </div>
+      <hr>
+         <h2>apartment</h2>
+         <div class="apartment">
+         <div class="ap1">
+           <img src="ap1.jpg" width="250px" height="250px">
+           <div class="app1">
+           <p>1 night=300$</p>
+           <p>3 room</p>
+           <p>2 toilet</p>
+           <p>3 person</p>
+           <p>single bed</p>
+         </div>
+           <button class="b1"> book</button>
+        </div>
+        <div class="ap2">
+           <img src="ap2.jpg" width="250px" height="250px">
+           <div class="app1">
+           <p>1 night=450$</p>
+           <p>4 room</p>
+           <p>3 toilet</p>
+           <p>8 person</p>
+           <p>double bed</p>
+           <p>parking</p>
+         </div>
+           <button class="b1">book</button>
+        </div>
+        <div class="ap3">
+         <div class="app1">
+           <img src="ap3.jpg" width="250px" height="250px">
+           <p>1 night=400$</p>
+           <p>3 room</p>
+           <p>1 toilet</p>
+           <p>6 person</p>
+           <p> double bed</p>
+         </div>
+           <button class="b1">book</button>
+        </div>
+      </div>
+        <hr>
+        <h2>chalets</h2>
+        <div class="chalets">
+        <div class="ch1">
+           <img src="ch1.jpg" width="300px" height="300px">
+           <div class="pch1">
+           <p>1 night=1000$</p>
+           <p>4 room </p>
+           <p>4 toilet</p>
+           <p>12 person</p>
+           <p>treble bed</p>
+           <p>garden</p>
+           <p>pool</p>
+         </div>
+           <button class="b1">book</button>
+        </div>
+        <div class="ch2">
+        <img src="ch2.jpg" width="300px" height="300px">
+        <div class="pch1">
+         <p>1 night=2600$</p>
+         <p>6 room</p>
+         <p>6 toilet</p>
+         <p>12 person</p>
+         <p>double bed</p>
+         <p>garden</p>
+         <p>pool</p>
+         <p> parking</p>
+      </div>
+         <button class="b1">book</button>
+        </div>
+         <div class="ch3">
+            <img src="ch3.jpg" width="300px" height="300px">
+            <div class="pch1">
+           <p>1 night=2800$</p>
+           <p>5 room</p>
+           <p>3 toilet</p>
+           <p>5 person</p>
+           <p>single bed</p>
+           <p>pool</p>
+         </div>
+           <button class="b1">book</button>
+        </div>
+      </div>
+      </div>
+        <hr>
+      <div class="map" id="map">
+        <h1>MAP</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13343.86166505511!2d35.209923599999996!3d33.267397700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151e7d902f915d95%3A0xcf0e3fc6fb997408!2sTyre%2C%20Lebanon!5e0!3m2!1sen!2seg!4v1700864692357!5m2!1sen!2seg" width="800" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+   <hr>
+   <div class="R&C" style="justify-content: space-between;
+   display: flex;
+   margin-right: 82px;
+   margin-left: -3px;background-color: #838080;
+    width: 100%;margin-top: -8px;">
+   <div class="rate">
+      <p>Rating :</p>
+      <div  id="rates" style="padding-top: 53px;">
+        <input type="range" id="rating" min="1" max="5" step="1" value="1">
+        </div>
+    </div>
+      <div class="contact" id="contact">
+           <p>CONTACT :</p>
+           <a href="https://www.facebook.com/yara.ehab.351/" style="padding-top: 39px;""><img src="facebook-f_.png" width="60px" height="60px"></a>
+           <a href="https://www.instagram.com/yaraehab65/" style="padding-top: 39px;""><img src="instagram_.png" width="70px" height="70px"></a>
+           <a href="https://www.whatsapp.com/" style="padding-top: 39px;""><img src="whatsapp_.png" width="60px" height="60px" ></a>
+           <a href="https://twitter.com/i/flow/login" style="padding-top: 44px;""><img src="twitter_.png" width="60px" heighg="60px" > </a>
+         
+           <button onclick="share()" class="shareBtn" ><img src="share.png"></button>
+            
+      </div>
+   </div>
+      
+   
+ </div>
+    
+
+</body>
